@@ -1,0 +1,6 @@
+Facture ID: 1
+Souris	3 : 47.97
+Clavier	1 : 30.5
+Ordinateur	2 : 1501.98
+Prix = 1580.45
+PrixTTC = 1896.54
