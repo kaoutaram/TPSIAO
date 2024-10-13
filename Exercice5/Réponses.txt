@@ -1,0 +1,23 @@
+Exercice5
+1.1)Le couplage entre Calendrier et Personne signifie que Calendrier dépend
+    beaucoup de Personne, ce qui rend le système moins flexible 
+    et plus difficile à changer. Pour réduire ce couplage, on peut utiliser 
+    une interface. Cela permettra à Calendrier de travailler avec une abstraction 
+    au lieu de dépendre directement de la classe Personne.
+
+1.2)-IPersonne Interface: voir l'image "ipersonne.png"
+    -La nouvelle signature de add() dans Calendrier: voir l'image "add_calendrier.png"
+    -IPersonneest n'est pas adapée à notre situation
+    -Mise à jour Ipersone : voir l'image "updateIpersonne.png"
+
+1.3)Pour gérer les anniversaires des membres de Facebook tout en réduisant le couplage 
+    entre les classes IPersonne et IAmiFacebook, il est important d'identifier les éléments 
+    communs aux deux interfaces et de concevoir une solution qui permette à la classe 
+    Calendrier de manipuler des objets de manière plus abstraite et générique.
+    voir l'image "IAnniversaire.png"
+
+1.4)Le principe SOLID qui n'était pas vérifié lorsque l'on voulait utiliser IPersonne 
+    dans Calendrier est le principe de Ségrégation des Interfaces(Interface Segregation
+    Principle - ISP).
+    Cause:Calendrier à dépendre d'une interface IPersonne avec des méthodes inutiles 
+    (envoyerEmail(String msg, List<String> dest),envoyerSMS(String msg, int tel)).
