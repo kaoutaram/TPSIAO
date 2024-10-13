@@ -7,7 +7,7 @@ Exercice5
 
 1.2)-IPersonne Interface: voir l'image "ipersonne.png"
     -La nouvelle signature de add() dans Calendrier: voir l'image "add_calendrier.png"
-    -IPersonneest n'est pas adapée à notre situation
+    -IPersonneest n'est pas adaptée à notre situation
     -Mise à jour Ipersone : voir l'image "updateIpersonne.png"
 
 1.3)Pour gérer les anniversaires des membres de Facebook tout en réduisant le couplage 
