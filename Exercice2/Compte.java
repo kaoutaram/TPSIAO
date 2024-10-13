@@ -5,7 +5,7 @@ public class Compte {
     private String id;
     private String dateCreation;
     private double montant;
-    private OperationExecution operationExecution; // Remplacement de OperationStrategy par OperationExecution
+    private OperationExecution operationExecution; 
 
     public Compte(String id, String dateCreation) {
         this.id = id;
